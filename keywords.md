@@ -7,3 +7,5 @@ vandring
 äventyr
 zip lining
 kajak
+
+test
