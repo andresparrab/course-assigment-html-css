@@ -1,0 +1,25 @@
+@use 'variables-and-functions' as v;
+
+.container-index{
+    background-color: v.$Onyx;
+    color: azure;   
+}
+.card-text{
+    background-color: #8a8a8f;
+    padding: 10%;
+}
+.article-index{
+    text-align: left;
+    padding: 3%;
+}
+.p-index{
+    font-size: xx-large;
+    text-align: left;
+    padding: 3%;
+}
+.picture-index{
+    padding-bottom: 5%;
+}
+.picture-index2{
+    padding: 5%;
+}
