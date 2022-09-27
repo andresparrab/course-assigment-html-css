@@ -3,19 +3,27 @@
     margin: 0%;
     padding: 0%;
     outline: 0%;
+
 }
 
 .container-blog{
     border: 1px solid red;
-    background-color: v.$Onyx;
-    color: azure;
+    background-color: white;
+    color: black;
 }
 
 .blog-article{
     border: 1px solid red;
     background-color: v.$Silver;
+    padding: 3%;
+    margin: 3%;
 }
 
 .container-blog-form{
     border: 1px solid red;
+}
+
+.bla{
+    border: 1px solid red;
+    margin: 3%;
 }
