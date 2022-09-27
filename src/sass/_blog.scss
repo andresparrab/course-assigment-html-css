@@ -1,0 +1,21 @@
+@use 'variables-and-functions' as v;
+*{
+    margin: 0%;
+    padding: 0%;
+    outline: 0%;
+}
+
+.container-blog{
+    border: 1px solid red;
+    background-color: v.$Onyx;
+    color: azure;
+}
+
+.blog-article{
+    border: 1px solid red;
+    background-color: v.$Silver;
+}
+
+.container-blog-form{
+    border: 1px solid red;
+}
