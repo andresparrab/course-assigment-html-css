@@ -1,0 +1,60 @@
+@use "./variables-and-functions" as v;
+header {
+    min-height: 10vh;
+    background-color: v.$Rose_Gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header > h1 {
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.50));
+}
+
+nav {
+    background-color: v.$Soft_Gold;
+    min-height: 10vh;
+
+}
+
+// .navbar-expand-lg {
+//     position: relative;
+// }
+
+.products-container{
+    overflow: scroll;
+    // display: flex;
+    // flex-wrap: wrap;
+    border: solid red 2px;
+    background-color: v.$Silver;
+    height: 70vh;
+    padding: 3vw;
+}
+
+.products-container > * {
+    
+    // flex-direction: row;
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.50));
+
+ 
+}
+
+.card-img-top {
+    max-height: 15vw;
+
+}
+
+.col {
+    padding: 3vw;
+    margin: 3vw;
+    
+    // max-width: 33vw;
+}
+
+.products-footer {
+    background-color: black;
+    min-height: 10vh;
+    color: white;
+    text-align: center;
+}
