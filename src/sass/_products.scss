@@ -1,0 +1,15 @@
+@use "./variables-and-functions" as v;
+
+.products-container{
+    border: solid red 2px;
+    background-color: v.$Rose_Gold;
+    color: rgb(17, 0, 255);
+    height: 80vh;
+}
+
+.products-footer{
+    background-color: black;
+    height:9vh;
+    color: white;
+    text-align: center;
+}
