@@ -18,38 +18,83 @@ nav {
 
 }
 
-// .navbar-expand-lg {
-//     position: relative;
-// }
 
-.products-container{
-    overflow: scroll;
-    // display: flex;
-    // flex-wrap: wrap;
-    border: solid red 2px;
-    background-color: v.$Silver;
-    height: 70vh;
-    padding: 3vw;
+.products-container .single-product {
+    margin-bottom: 26px;
 }
 
-.products-container > * {
-    
-    // flex-direction: row;
-    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.50));
-
- 
+.products-container .single-product .part-1 {
+    position: relative;
+    height: 290px;
+    max-height: 290px;
+    margin-bottom: 20px;
+    /* makes the animation to sta inside the div */
+    overflow: hidden;
 }
 
-.card-img-top {
-    max-height: 15vw;
-
+.products-container .single-product .part-1::before {
+		position: absolute;
+		content: "";
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		transition: all 1.3s;
 }
 
-.col {
-    padding: 3vw;
-    margin: 3vw;
-    
-    // max-width: 33vw;
+.products-container .single-product:hover .part-1::before {
+		transform: scale(1.2,1.2) rotate(5deg);
+}
+
+.products-container #product-1 .part-1::before {
+    background: url("../pictures/kajak-1.jpg") no-repeat center;
+    background-size: cover;
+		// transition: all 0.3s;
+    z-index: 1;
+}
+
+.products-container #product-2 .part-1::before {
+    background: url("../pictures/kajak-2.jpg") no-repeat center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.products-container #product-3 .part-1::before {
+    background: url("../pictures/kajak-3.jpg") no-repeat center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.products-container #product-4 .part-1::before {
+    background: url("../pictures/kajak-4.jpg") no-repeat center;
+    background-size: cover;
+    z-index: 1;
+}
+
+/* Set the size to better fit the card */
+.products-container .single-product .part-2 h4 {
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.products-container .single-product .part-2 .product-old-price {
+    position: relative;
+    padding: 0 7px;
+    margin-right: 2px;
+    opacity: 0.6;
+}
+
+.products-container .single-product .part-2 .product-old-price::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #444444;
+    transform: translateY(-50%);
+    z-index: 2;
 }
 
 .products-footer {
@@ -58,3 +103,5 @@ nav {
     color: white;
     text-align: center;
 }
+
+
