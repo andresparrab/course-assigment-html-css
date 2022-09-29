@@ -1,0 +1,13 @@
+@use 'variables-and-functions' as v;
+
+.navbar{
+    background-color: v.$Soft_Gold;
+}
+.nav{
+    text-decoration: none;
+    color: v.$Onyx;
+    font-size: 1rem;
+}
+.nav-text{
+    width: 100%;
+}
