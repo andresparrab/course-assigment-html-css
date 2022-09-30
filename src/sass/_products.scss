@@ -18,7 +18,6 @@ nav {
 
 }
 
-
 .products-container .single-product {
     margin-bottom: 26px;
 }
@@ -78,24 +77,20 @@ nav {
     font-size: 1rem;
 }
 
-.products-container .single-product .part-2 .product-old-price {
-    position: relative;
-    padding: 0 7px;
-    margin-right: 2px;
-    opacity: 0.6;
+.input-group {
+    vertical-align: bottom;
+    padding: 0px;
+    max-height: 5.6vh;
 }
 
-.products-container .single-product .part-2 .product-old-price::after {
-    position: absolute;
-    content: "";
-    top: 50%;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    background-color: #444444;
-    transform: translateY(-50%);
-    z-index: 2;
+.form-control{
+    margin-top: 0px !important;
 }
+
+.btn {
+    max-height: 50px;
+}
+
 
 .products-footer {
     background-color: black;
