@@ -1,0 +1,58 @@
+footer{
+    position:relative;
+    bottom: 0px;
+    width: 100%;
+    background-color:black;
+    color: white;
+
+
+}
+.main-content{
+    display: flex;
+
+}
+.main-content.box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+
+}
+
+.box h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .content{
+    margin: 20px 0 0 0;
+}
+.left .content{
+    text-align: justify;
+    padding-right: 25px;
+}
+
+.left .content .social{
+
+margin: 20px 0 0 0;
+}
+
+
+.left .content .social .link{
+
+    padding: 0 2px;
+    }
+    .left .content .social .link span{
+
+        height: 40px;
+        width: 40px;
+        background: #1a1a1a;
+        line-height: 40px;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 5px;
+        transition: 0.3s;
+        }
+
+        .left .content .social .link span:hover{
+            background: #f12020;
+        }
